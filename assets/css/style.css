@@ -108,6 +108,13 @@ img{
         padding-left: var(--sidbar-width);
     }
 }
+@media (max-width: 800px) {
+    .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
 
 /* BUTTON */
 .btn{
